@@ -224,7 +224,7 @@ void checkADC(){
         }
        
         if(counter==0){
-        for (int i = 0; i < 11; i++) {
+        for (i = 0; i < 11; i++) {
           expected_data[i] = expected_data1[i];
           ACK[i] = ACK1[i];
         }
